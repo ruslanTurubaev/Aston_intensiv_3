@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Aston_intensiv_3</string>
+    <string name="flags">Flags</string>
+    <string name="load_picture_picasso">Load picture with Picasso</string>
+    <string name="picasso_label">Picasso</string>
+    <string name="load_picture_default">Load picture with default loader</string>
+    <string name="default_label">Default loader</string>
+    <string name="loaded_picture">Loaded picture</string>
+    <string name="link">Enter your link</string>
+    <string name="Toast">"Ups! Smt goes wrong, check your link or internet connection</string>
+    <string name="Toast_empty_link">Enter yor link</string>
+    <string name="Toast_failed_picture_recovery">Sorry, we lost your picture</string>
+</resources>

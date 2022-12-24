@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FlagsActivity"
+    android:layout_margin="@dimen/margin_frame"
+    android:background="@color/gray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="start">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/flag_30dp"
+            android:background="@color/red"
+            android:layout_marginTop="@dimen/margin_top_flags"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/flag_30dp"
+            android:background="@color/white"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/flag_30dp"
+            android:background="@color/red"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/flag_45dp"
+            android:layout_marginTop="@dimen/margin_top_flags"
+            android:background="@color/white" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/flag_45dp"
+            android:background="@color/red"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/flag_max_height"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_top_flags">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@color/green"
+                android:layout_weight="1"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:layout_weight="1"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@color/red"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/flag_45dp"
+            android:layout_marginTop="@dimen/margin_top_flags"
+            android:background="@color/yellow" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/flag_30dp"
+            android:background="@color/blue"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/flag_30dp"
+            android:background="@color/red"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/flag_max_height"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_top_flags">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:layout_weight="1"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/flag_45dp"
+                    android:background="@color/red"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/flag_45dp"
+                    android:background="@color/green"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/flag_25dp"
+            android:layout_marginTop="@dimen/margin_top_flags"
+            android:background="@color/red" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/flag_25dp"
+            android:background="@color/white"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/flag_35dp"
+            android:background="@color/blue"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/flag_25dp"
+            android:background="@color/white"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/flag_25dp"
+            android:background="@color/red"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/flag_max_height"
+            android:layout_marginTop="@dimen/margin_top_flags">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/red"/>
+
+            <View
+                android:layout_width="@dimen/flag_stripe"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:layout_marginStart="@dimen/stripe_margin"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/flag_stripe"
+                android:background="@color/white"
+                android:layout_gravity="center"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/flag_max_height"
+            android:layout_marginTop="@dimen/margin_top_flags">
+
+            <View
+                android:layout_width="@dimen/flag_max_height"
+                android:layout_height="match_parent"
+                android:background="@color/red"
+                android:layout_gravity="center"/>
+
+            <View
+                android:layout_width="@dimen/flag_20dp"
+                android:layout_height="@dimen/flag_65dp"
+                android:background="@color/white"
+                android:layout_gravity="center"/>
+
+            <View
+                android:layout_width="@dimen/flag_65dp"
+                android:layout_height="@dimen/flag_20dp"
+                android:background="@color/white"
+                android:layout_gravity="center"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</ScrollView>

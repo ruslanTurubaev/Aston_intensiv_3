@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginHorizontal="@dimen/margin_horizontal">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_flags"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/flags"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_load_picture_picasso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/load_picture_picasso"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_load_picture_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/load_picture_default"/>
+
+</LinearLayout>
